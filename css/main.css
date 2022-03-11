@@ -368,7 +368,7 @@ html {
           box-sizing: border-box;
 }
 
-.body {
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -381,6 +381,7 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #ffd845;
 }
 
 .visually-hidden {
@@ -421,5 +422,96 @@ main {
   padding-left: 20px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.pokemon__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 100px;
+}
+
+.pokemon__item {
+  width: 280px;
+  height: 350px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.pokemon__item:hover {
+  -webkit-box-shadow: 0 0 0 10px white;
+          box-shadow: 0 0 0 10px white;
+}
+
+.pokemon__images {
+  width: 157px;
+  height: 157px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  padding-left: 60px;
+  margin-bottom: 15px;
+}
+
+.pokemon__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pokemon__heading {
+  display: block;
+  font-family: 'Barlow', "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.pokemon__name {
+  font-family: 'Barlow', 'sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.pokemon__info {
+  font-family: 'Barlow' , 'sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=main.css.map */
