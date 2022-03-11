@@ -14,16 +14,16 @@ function render(array, place) {
         var newH3 = document.createElement("h3");
         var newInfo = document.createElement("p");
         var newWeight = document.createElement("p");
-        var newLength = document.createElement("p")
+        var newLength = document.createElement("p");
         
         newImg.src = item.img;
-        newImg.classList.add("pokemon__images")
+        newImg.classList.add("pokemon__images");
         newImg.width = 157;
         
         newLI.appendChild(newImg);
         newLI.classList.add("pokemon__item");
 
-        newDiv.classList.add("pokemon__bottom")
+        newDiv.classList.add("pokemon__bottom");
         
         newH3.textContent = item.name;
         newDiv.appendChild(newH3);
@@ -35,7 +35,7 @@ function render(array, place) {
         
         newWeight.textContent = item.weight;
         newDiv.appendChild(newWeight);
-        newWeight.classList.add("pokemon__info")
+        newWeight.classList.add("pokemon__info");
         
         newLength.textContent = item.height;
         newDiv.appendChild(newLength);
